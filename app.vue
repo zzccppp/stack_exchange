@@ -1,3 +1,5 @@
 <template>
-  <Main></Main>
+  <client-only>
+    <Main></Main>
+  </client-only>
 </template>

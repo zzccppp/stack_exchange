@@ -1,1 +1,0 @@
-<template>Posts</template>
