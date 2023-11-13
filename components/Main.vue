@@ -31,7 +31,7 @@
                 <el-icon>
                   <ElIconMenu />
                 </el-icon>
-                <span>Navigator Two</span>
+                <span>Search</span>
               </el-menu-item>
               <el-menu-item index="3" disabled>
                 <el-icon>
@@ -61,7 +61,7 @@ function handleSelect(index: string) {
   if (index === '1') {
     navigateTo('/')
   } else if (index === '2') {
-    navigateTo('/post')
+    navigateTo('/search')
   } else if (index === '3') {
     console.log('Navigator Three')
   } else if (index === '4') {
